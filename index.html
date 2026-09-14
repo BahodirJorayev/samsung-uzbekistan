@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galaxy S25 Ultra | Samsung O‘zbekiston</title>
+  <meta name="description" content="Yangi Samsung Galaxy S25 Ultra. Titanium. Galaxy AI. 200 MP kamera va eng kuchli Snapdragon 8 Elite protsessori. Rasmiy Samsung O‘zbekiston kafolati bilan." />
+  
+  <!-- Fonts: Inter and system fonts as SF Pro Display & Text substitutes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+  
+  <!-- Three.js and OrbitControls for Interactive 3D Studio -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+
+  <!-- Top Announcement / Promo Ribbon -->
+  <div class="promo-ribbon">
+    <div class="container promo-content">
+      <span>Samsung Galaxy AI O‘zbekistonda rasman taqdim etildi. 1 yillik rasmiy kafolat va butun O‘zbekiston bo‘ylab bepul yetkazib berish.</span>
+      <a href="#buy" class="text-link">Batafsil ma’lumot <span class="arrow-glyph">›</span></a>
+    </div>
+  </div>
+
+  <!-- Global Sticky Navigation Bar (44px) -->
+  <header class="global-nav" id="globalNav">
+    <div class="container nav-inner">
+      <a href="#" class="nav-brand" aria-label="Samsung O'zbekiston">
+        <svg class="samsung-logo" viewBox="0 0 160 30" width="112" height="21" fill="currentColor">
+          <path d="M14.6 13.9c-2.4-.8-4.2-1.5-4.2-3.1 0-1.5 1.5-2.5 3.7-2.5 2.1 0 3.8.9 4.3 2.6l4.2-1.3c-.9-2.9-3.9-4.8-8.5-4.8-5.1 0-8.5 3.1-8.5 6.9 0 4.2 3.6 5.5 6.8 6.5 2.8.9 4.2 1.6 4.2 3.3 0 1.7-1.7 2.7-4.1 2.7-2.7 0-4.6-1.3-5.2-3.2L3 22.3c1.1 3.5 4.6 5.3 9.4 5.3 5.4 0 9-3 9-7.1-.1-4.1-3.6-5.6-6.8-6.6zM32.5 5.2h-4.6l-8.2 22h4.9l1.6-4.5h8.1l1.6 4.5h4.9l-8.3-22zm-4.9 13.5l2.6-7.5 2.6 7.5h-5.2zm27.8-13.5h-4.8l-5.6 14.1-5.6-14.1h-4.8v22h4.6v-14l5 12.3h1.8l5-12.3v14h4.4V5.2zm14.3 8.7c-2.4-.8-4.2-1.5-4.2-3.1 0-1.5 1.5-2.5 3.7-2.5 2.1 0 3.8.9 4.3 2.6l4.2-1.3c-.9-2.9-3.9-4.8-8.5-4.8-5.1 0-8.5 3.1-8.5 6.9 0 4.2 3.6 5.5 6.8 6.5 2.8.9 4.2 1.6 4.2 3.3 0 1.7-1.7 2.7-4.1 2.7-2.7 0-4.6-1.3-5.2-3.2l-4.2 1.3c1.1 3.5 4.6 5.3 9.4 5.3 5.4 0 9-3 9-7.1-.1-4.1-3.6-5.6-6.8-6.6zm18 1.9c0-6-3.8-10.6-9.7-10.6s-9.7 4.6-9.7 10.6v11.4h4.8V15.7c0-3.6 2.2-6.2 5-6.2 2.7 0 4.8 2.6 4.8 6.2v11.5h4.8V15.8zm19.6-10.6h-4.8v14.2c0 3.5-2 5.3-5.1 5.3-3.1 0-5.1-1.8-5.1-5.3V5.2h-4.8v14.4c0 6.1 3.9 9.8 9.9 9.8 6.1 0 9.9-3.7 9.9-9.8V5.2zm20.8 17.5c-1.4 2.8-4.5 4.7-8.4 4.7-6.2 0-10.4-4.8-10.4-11.1 0-6.2 4.3-11.1 10.4-11.1 4.7 0 8.3 2.7 9.2 6.8l-4.6 1.2c-.6-2.2-2.4-3.6-4.6-3.6-3.5 0-5.7 3-5.7 6.8 0 3.7 2.2 6.7 5.7 6.7 2.1 0 3.7-1.2 4.4-2.8v-3.5h-5.2v-4.1h9.4v10.1z"/>
+        </svg>
+      </a>
+      
+      <nav class="nav-links">
+        <a href="#hero" class="nav-item active">Galaxy S25 Ultra</a>
+        <a href="#galaxy-ai" class="nav-item">Galaxy AI</a>
+        <a href="#colors" class="nav-item">Ranglar</a>
+        <a href="#performance" class="nav-item">Unumdorlik</a>
+        <a href="#specs" class="nav-item">Xususiyatlar</a>
+        <a href="#guarantee" class="nav-item">O‘zbekiston Servis</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#buy" class="pill-btn primary-btn sm-btn">Xarid qilish</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. Product Hero Section (Canvas White #ffffff) -->
+    <section class="section section-hero" id="hero">
+      <div class="container hero-container">
+        
+        <!-- Eyebrow & Badge -->
+        <div class="hero-eyebrow-wrapper">
+          <span class="badge-new">Yangi</span>
+          <span class="product-eyebrow">Galaxy S25 Ultra</span>
+        </div>
+
+        <!-- Hero Oversized Headline (Apple Cathedral of White Space) -->
+        <h1 class="hero-display-headline">Titanium. AI.<br>Mutlaq qudrat.</h1>
+
+        <!-- Subtitle & Pricing in UZS -->
+        <p class="hero-subline">Endi O‘zbekistonda rasmiy kafolat va UZIMEI ro‘yxati bilan.</p>
+        
+        <div class="hero-cta-group">
+          <a href="#buy" class="pill-btn primary-btn">Sotib olish</a>
+          <a href="#features" class="text-link">Batafsil ko‘rish <span class="arrow-glyph">›</span></a>
+        </div>
+
+        <div class="hero-pricing">
+          <span>14 990 000 so‘mdan boshlab</span> yoki <span>oyiga 1 249 000 so‘m</span> muddatli to‘lov
+        </div>
+
+        <!-- 3D Interactive Phone Presentation Studio -->
+        <div class="hero-3d-studio" id="studio3d">
+          <div class="studio-canvas-container" id="canvasContainer">
+            <!-- Three.js WebGL Canvas injected here -->
+            <div class="canvas-loading" id="canvasLoading">
+              <div class="spinner"></div>
+              <span>3D Model tayyorlanmoqda...</span>
+            </div>
+          </div>
+
+          <!-- 3D Viewer Interactive Overlays & Controls -->
+          <div class="studio-overlay-controls">
+            <div class="studio-pill-indicator">
+              <span class="indicator-dot"></span>
+              <span id="rotationStatusText">360° interaktiv aylantirish: barmoq yoki sichqoncha bilan boshqaring</span>
+            </div>
+
+            <!-- Color Variant Swatches (28px radius) -->
+            <div class="swatches-toolbar" aria-label="Titan rangini tanlang">
+              <span class="swatches-label">Titan ranglari:</span>
+              <div class="swatches-list">
+                <button class="swatch-btn active" data-color="silver" data-name="Titan Kumush (Silver)" data-hex="#e3e4e5" title="Titan Kumush">
+                  <span class="swatch-inner" style="background-color: #e3e4e5;"></span>
+                </button>
+                <button class="swatch-btn" data-color="black" data-name="Titan Qora (Midnight Black)" data-hex="#2e3642" title="Titan Qora">
+                  <span class="swatch-inner" style="background-color: #2e3642;"></span>
+                </button>
+                <button class="swatch-btn" data-color="blue" data-name="Titan Moviy (Sky Blue)" data-hex="#c8d8e0" title="Titan Moviy">
+                  <span class="swatch-inner" style="background-color: #c8d8e0;"></span>
+                </button>
+                <button class="swatch-btn" data-color="yellow" data-name="Titan Sariq (Starlight Gold)" data-hex="#f0e4d3" title="Titan Oltin">
+                  <span class="swatch-inner" style="background-color: #f0e4d3;"></span>
+                </button>
+              </div>
+              <span class="selected-color-name" id="selectedColorLabel">Titan Kumush (Silver)</span>
+            </div>
+
+            <div class="studio-actions">
+              <button class="btn-ghost-pill" id="toggleAutoRotateBtn">To‘xtatish / Aylantirish</button>
+              <button class="btn-ghost-pill" id="resetAngleBtn">Old ko‘rinish</button>
+              <button class="btn-ghost-pill" id="backAngleBtn">Orqa ko‘rinish</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. Feature Showcase Band (Canvas Gray #f5f5f7) -->
+    <section class="section section-features band-gray" id="galaxy-ai">
+      <div class="container">
+        
+        <div class="section-heading-block">
+          <h2 class="section-title">Lo principal. Bosh mezonlar.</h2>
+          <p class="section-subtitle">O‘zbekistondagi kundalik hayotingiz va biznesingiz uchun moslashtirilgan sun’iy intellekt.</p>
+        </div>
+
+        <!-- Feature Cards Grid (28px radius, Zero Shadow) -->
+        <div class="features-grid">
+          
+          <!-- Master Highlight Card (Full Width) -->
+          <div class="card card-white card-full">
+            <div class="card-content">
+              <span class="card-eyebrow">Galaxy AI</span>
+              <h3 class="card-headline">So‘zlashuv vaqtida real vaqtli tarjima. Til to‘siqlarisiz.</h3>
+              <p class="card-body-text">
+                O‘zbek tilida so‘zlashuvchi tadbirkorlar va sayohatchilar uchun beqiyos imkoniyat: xorijiy hamkorlar bilan telefon orqali gaplashayotganingizda, ovozingiz avtomatik tarzda ingliz, xitoy, arab yoki rus tillariga ikki tomonlama sinxron tarjima qilinadi.
+              </p>
+              <div class="card-link-wrapper">
+                <a href="#specs" class="text-link">Galaxy AI imkoniyatlari haqida batafsil <span class="arrow-glyph">›</span></a>
+              </div>
+            </div>
+            <div class="card-visual-ai-demo">
+              <div class="ai-chat-simulation">
+                <div class="ai-bubble user-bubble">
+                  <span class="bubble-lang">O‘zbekcha:</span>
+                  <p>«Salom, Toshkentdagi yangi logistika shartnomamiz bo‘yicha gaplashsak bo‘ladimi?»</p>
+                </div>
+                <div class="ai-translate-wave">
+                  <span class="wave-pulse"></span>
+                  <span class="wave-text">Galaxy AI Jonli Tarjima</span>
+                </div>
+                <div class="ai-bubble partner-bubble">
+                  <span class="bubble-lang">Inglizcha (Avtomatik ovozli tarjima):</span>
+                  <p>“Hello, can we discuss our new logistics contract in Tashkent?”</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Two Side-by-Side Cards (48% each) -->
+          <div class="card card-white card-half">
+            <div class="card-content">
+              <span class="card-eyebrow">Corning® Gorilla® Armor 2</span>
+              <h3 class="card-headline-sm">5-darajali aviatsiya titani. Yengilroq, pishiqroq.</h3>
+              <p class="card-body-text">
+                Galaxy S25 Ultra ramkasi nozik sayqallangan aerokosmik titan qotishmasidan ishlangan. Yangi antirefleksiv oyna esa quyosh nurlari ostida ham 75% kamroq aks berib, ko‘zni toliqtirmaydi.
+              </p>
+            </div>
+            <div class="card-visual-titanium">
+              <div class="titanium-badge-graphic">
+                <div class="titanium-layer">
+                  <span class="grade-label">Aerospace Grade Titanium</span>
+                  <span class="metric-value">Grade 5</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-white card-half">
+            <div class="card-content">
+              <span class="card-eyebrow">ProVisual Engine</span>
+              <h3 class="card-headline-sm">200 MP ultra-kamera. Har bir detalda hayrat.</h3>
+              <p class="card-body-text">
+                Qorong‘i tunda Registon maydoni yoki Toshkent teleminorasini suratga olasizmi — yangi avlod sun’iy intellektli tasvir protsessori shovqinsiz, chuqur dinamik diapazonga ega kadrlar yaratadi.
+              </p>
+            </div>
+            <div class="card-visual-camera">
+              <div class="camera-sensors-render">
+                <div class="sensor-ring s-large"><span>200MP Wide</span></div>
+                <div class="sensor-ring s-tele"><span>50MP 5x Zoom</span></div>
+                <div class="sensor-ring s-ultra"><span>50MP Ultra-Wide</span></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. Color Variant Showcase (Canvas White #ffffff) -->
+    <section class="section section-colors" id="colors">
+      <div class="container">
+        
+        <div class="section-heading-block text-center">
+          <h2 class="section-title">Nafislik va bardoshlilik uyg‘unligi.</h2>
+          <p class="section-subtitle">Tabiat va kelajak texnologiyalaridan ilhomlangan to‘rtta eksklyuziv titan rang.</p>
+        </div>
+
+        <!-- Color Variant Grid: Two side-by-side cards at 28px radius -->
+        <div class="color-variants-grid">
+          
+          <div class="color-showcase-card" style="background-color: var(--color-silver);">
+            <div class="color-card-info">
+              <span class="color-card-title">Titan Kumush</span>
+              <span class="color-card-desc">Klassik, toza va doimo zamonaviy metall jilosi</span>
+            </div>
+            <div class="color-device-mockup">
+              <div class="device-silhouette silver-device">
+                <div class="device-camera-island">
+                  <div class="lens"></div>
+                  <div class="lens"></div>
+                  <div class="lens"></div>
+                </div>
+                <div class="s-pen-graphic"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="color-showcase-card" style="background-color: var(--color-midnight); color: #ffffff;">
+            <div class="color-card-info">
+              <span class="color-card-title text-light">Titan Qora</span>
+              <span class="color-card-desc text-muted-light">Chuqur, sirli va biznes uslubiga mos premium qoplama</span>
+            </div>
+            <div class="color-device-mockup">
+              <div class="device-silhouette black-device">
+                <div class="device-camera-island">
+                  <div class="lens"></div>
+                  <div class="lens"></div>
+                  <div class="lens"></div>
+                </div>
+                <div class="s-pen-graphic"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="color-swatches-interactive">
+          <div class="swatch-group-pill">
+            <button class="swatch-item active" data-variant="0">
+              <span class="color-dot" style="background: #e3e4e5;"></span>
+              <span>Titan Kumush</span>
+            </button>
+            <button class="swatch-item" data-variant="1">
+              <span class="color-dot" style="background: #2e3642;"></span>
+              <span>Titan Qora</span>
+            </button>
+            <button class="swatch-item" data-variant="2">
+              <span class="color-dot" style="background: #c8d8e0;"></span>
+              <span>Titan Moviy</span>
+            </button>
+            <button class="swatch-item" data-variant="3">
+              <span class="color-dot" style="background: #f0e4d3;"></span>
+              <span>Titan Oltin</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. Performance & Chipset Band (Canvas Gray #f5f5f7) -->
+    <section class="section section-performance band-gray" id="performance">
+      <div class="container">
+        
+        <div class="section-heading-block">
+          <span class="badge-sub">3nm Arxitektura</span>
+          <h2 class="section-title">Snapdragon® 8 Elite for Galaxy.</h2>
+          <p class="section-subtitle">Tarixdagi eng tezkor Galaxy chipi. Konsol darajasidagi nurlar izi (Ray Tracing) va eng yangi Galaxy AI hisoblash quvvati.</p>
+        </div>
+
+        <!-- Metrics Cards with Tabular Numbers (OpenType numr) -->
+        <div class="metrics-grid">
+          
+          <div class="metric-card card-white">
+            <div class="metric-number-wrapper">
+              <span class="metric-number">+45%</span>
+            </div>
+            <h4 class="metric-name">CPU Unumdorligi</h4>
+            <p class="metric-description">Yangi Oryon yadrolari og‘ir dasturlar va ko‘p vazifalilikda mislsiz tezlik beradi.</p>
+          </div>
+
+          <div class="metric-card card-white">
+            <div class="metric-number-wrapper">
+              <span class="metric-number">+44%</span>
+            </div>
+            <h4 class="metric-name">GPU Grafika</h4>
+            <p class="metric-description">Mobil o‘yinlarda 120 kadr/soniya chastota va barqaror sovutish tizimi.</p>
+          </div>
+
+          <div class="metric-card card-white">
+            <div class="metric-number-wrapper">
+              <span class="metric-number">+42%</span>
+            </div>
+            <h4 class="metric-name">NPU AI Quvvati</h4>
+            <p class="metric-description">Qurilmaning o‘zida (on-device) internetga ulanmasdan ishlovchi sun’iy intellekt.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. Uzbekistan Official Ecosystem & Services (#ffffff) -->
+    <section class="section section-guarantee" id="guarantee">
+      <div class="container">
+        
+        <div class="section-heading-block text-center">
+          <span class="badge-sub">Samsung O‘zbekiston Rasmiy Kafolati</span>
+          <h2 class="section-title">Xotirjamlik va ishonch. Har bir qadamda.</h2>
+          <p class="section-subtitle">Rasmiy kafolatga ega qurilma xarid qilib, O‘zbekiston bo‘yicha to‘liq himoyaga ega bo‘ling.</p>
+        </div>
+
+        <div class="services-grid">
+          
+          <div class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3 class="service-title">1 Yillik Rasmiy Kafolat</h3>
+            <p class="service-text">Samsung Electronics tomonidan beriladigan rasmiy to‘liq servis kafolati va original ehtiyot qismlar kafolati.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="M7 15h10M7 9h6"/>
+              </svg>
+            </div>
+            <h3 class="service-title">UZIMEI 100% Ro‘yxatdan o‘tgan</h3>
+            <p class="service-text">Barcha qurilmalar O‘zbekiston Respublikasi qonunlariga muvofiq bojxona va UZIMEI bazasida to‘liq ro‘yxatga olingan.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Respublika Bo‘ylab Servis</h3>
+            <p class="service-text">Toshkent, Samarqand, Buxoro, Namangan, Farg‘ona va Andijon shaharlaridagi akkreditatsiyalangan rasmiy servis markazlari.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8">
+                <rect x="1" y="4" width="22" height="16" rx="2" ry="2"/>
+                <line x1="1" y1="10" x2="23" y2="10"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Qulay Muddatli To‘lov</h3>
+            <p class="service-text">O‘zbekistonning yetakchi banklari orqali boshlang‘ich to‘lovsiz, 12 va 24 oylik qulay to‘lov rejasi.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. Technical Specifications Table (Band Gray #f5f5f7) -->
+    <section class="section section-specs band-gray" id="specs">
+      <div class="container">
+        
+        <div class="section-heading-block">
+          <h2 class="section-title">Texnik xususiyatlar.</h2>
+          <p class="section-subtitle">Har bir millimetr muhandislik cho‘qqisi.</p>
+        </div>
+
+        <div class="specs-wrapper card-white">
+          <div class="spec-row">
+            <div class="spec-label">Ekran</div>
+            <div class="spec-value">
+              <strong>6.8 dyuymli Dynamic AMOLED 2X</strong>
+              <p>QHD+ (3120 × 1440), moslashuvchan 1–120Hz chastota, 2600 nits cho‘qqi yorqinligi, Corning® Gorilla® Armor 2 qoplamasi.</p>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <div class="spec-label">Protsessor</div>
+            <div class="spec-value">
+              <strong>Snapdragon® 8 Elite for Galaxy</strong>
+              <p>4.32 GHz chastotali yangi avlod 3nm arxitekturasi va integratsiyalangan Galaxy AI NPU.</p>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <div class="spec-label">Kameralar tizimi</div>
+            <div class="spec-value">
+              <strong>Kvadro-kamera ProVisual Engine bilan</strong>
+              <p>200 MP Asosiy (OIS, F1.7) + 50 MP Periskop Telefoto (5x optik, 100x Space Zoom) + 10 MP Telefoto (3x optik) + 50 MP Ultra-Keng burchakli (120°).</p>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <div class="spec-label">Akkumulyator</div>
+            <div class="spec-value">
+              <strong>5000 mA/soat</strong>
+              <p>45W tezkor zaryadlash (30 daqiqada 65%), 15W simsiz zaryadlash va Wireless PowerShare.</p>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <div class="spec-label">Xotira turlari</div>
+            <div class="spec-value">
+              <strong>12GB / 16GB LPDDR5X RAM</strong>
+              <p>256GB, 512GB yoki 1TB UFS 4.0 ultra-tezkor doimiy xotira.</p>
+            </div>
+          </div>
+
+          <div class="spec-row">
+            <div class="spec-label">Korpus va Qalam</div>
+            <div class="spec-value">
+              <strong>Titan ramka va o‘rnatilgan S Pen</strong>
+              <p>IP68 suv va changdan himoya darajasi (1.5 metr chuqurlikda 30 daqiqagacha chidamli).</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. Buy / Order Consultation Section (#ffffff) -->
+    <section class="section section-buy" id="buy">
+      <div class="container buy-card-container">
+        
+        <div class="buy-card">
+          <div class="buy-header">
+            <span class="badge-new">Rasmiy buyurtma</span>
+            <h2 class="buy-title">Galaxy S25 Ultra xarid qiling.</h2>
+            <p class="buy-desc">Toshkent bo‘ylab 2 soat ichida, viloyatlarga 24 soat ichida yetkazib berish xizmati mavjud.</p>
+          </div>
+
+          <div class="buy-options-summary">
+            <div class="option-pill-group">
+              <button class="opt-pill active">256 GB — 14 990 000 so‘m</button>
+              <button class="opt-pill">512 GB — 16 490 000 so‘m</button>
+              <button class="opt-pill">1 TB — 18 990 000 so‘m</button>
+            </div>
+
+            <div class="buy-action-area">
+              <a href="https://t.me/Jbahodir" target="_blank" rel="noopener noreferrer" class="pill-btn primary-btn lg-btn">
+                Telegram orqali buyurtma berish
+              </a>
+              <span class="order-guarantee-text">Rasmiy distribyutor: UZIMEI va 1 yillik kafolat kafolatlangan</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Dense Legal Footer Block (#f5f5f7) -->
+  <footer class="global-footer">
+    <div class="container footer-inner">
+      
+      <!-- Fine Print Legal Notes (Apple-style 12px SF Pro Text #707070) -->
+      <div class="footer-legal-notes">
+        <p>1. Ko‘rsatilgan narxlar O‘zbekiston so‘mida (UZS) berilgan va QQSni o‘z ichiga oladi. Muddatli to‘lov hisob-kitoblari hamkor banklarning 12 oylik taqsimot dasturiga asosan taxminiy hisoblangan.</p>
+        <p>2. Galaxy AI funksiyalaridan foydalanish uchun Samsung hisob qaydnomasi talab qilinishi mumkin. Jonli Tarjima funksiyasi o‘rnatilgan tillar ro‘yxatiga qarab doimiy yangilanib boradi.</p>
+        <p>3. UZIMEI ro‘yxati qurilma O‘zbekiston hududiga kirib kelganida qonuniy tartibda to‘liq amalga oshirilgan. Qayta ro‘yxatdan o‘tkazish talab etilmaydi.</p>
+        <p>4. 200 MP rejimida tasvir olish kamera sozlamalaridan faollashtiriladi. Haqiqiy natijalar yorug‘lik sharoitiga bog‘liq bo‘lishi mumkin.</p>
+      </div>
+
+      <div class="footer-hairline"></div>
+
+      <!-- Navigation directory columns -->
+      <div class="footer-directory">
+        <div class="directory-col">
+          <h4 class="col-title">Mahsulotlar</h4>
+          <ul class="col-list">
+            <li><a href="#hero">Galaxy S25 Ultra</a></li>
+            <li><a href="#hero">Galaxy S25+</a></li>
+            <li><a href="#hero">Galaxy Z Fold6</a></li>
+            <li><a href="#hero">Galaxy Watch Ultra</a></li>
+            <li><a href="#hero">Galaxy Buds3 Pro</a></li>
+          </ul>
+        </div>
+
+        <div class="directory-col">
+          <h4 class="col-title">O‘zbekiston Xizmatlari</h4>
+          <ul class="col-list">
+            <li><a href="#guarantee">Samsung Care+ Uzbekistan</a></li>
+            <li><a href="#guarantee">Rasmiy Servis Markazlari</a></li>
+            <li><a href="#guarantee">UZIMEI Maqomi</a></li>
+            <li><a href="#buy">Yetkazib berish xizmati</a></li>
+            <li><a href="#buy">Trade-In dasturi</a></li>
+          </ul>
+        </div>
+
+        <div class="directory-col">
+          <h4 class="col-title">Samsung O‘zbekiston</h4>
+          <ul class="col-list">
+            <li><a href="#">Kompaniya haqida</a></li>
+            <li><a href="#">Yangiliklar va xabarlar</a></li>
+            <li><a href="#">Rasmiy do‘konlar manzillari</a></li>
+            <li><a href="#">Vakolatli dilerlar</a></li>
+          </ul>
+        </div>
+
+        <div class="directory-col">
+          <h4 class="col-title">Aloqa va Qo‘llab-quvvatlash</h4>
+          <ul class="col-list">
+            <li><a href="https://t.me/Jbahodir" target="_blank">Telegram: @Jbahodir</a></li>
+            <li><a href="tel:7799">Yagona call-markaz: 7799</a></li>
+            <li><a href="#">Onlayn qo‘llab-quvvatlash</a></li>
+            <li><a href="#">Kafolat tekshirish</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-hairline"></div>
+
+      <!-- Bottom Credits and Mandatory Telegram Tag -->
+      <div class="footer-bottom-bar">
+        <div class="footer-copy">
+          Mualliflik huquqi © 2026 Samsung Electronics Co., Ltd. va Samsung O‘zbekiston jamoasi. Barcha huquqlar himoyalangan.
+        </div>
+        
+        <!-- User Requested Tag at the very bottom -->
+        <div class="footer-creator-tag">
+          <span>Loyiha muallifi va aloqa: </span>
+          <a href="https://t.me/Jbahodir" target="_blank" rel="noopener noreferrer" class="creator-telegram-link">
+            <strong>telegram: @Jbahodir</strong>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Main JavaScript App -->
+  <script src="app.js"></script>
+</body>
+</html>
